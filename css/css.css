@@ -1,0 +1,106 @@
+html{
+    min-width: 250px;
+    font-size: 1rem;
+}
+body{
+    background-image: url(../fonfo.jpeg);
+    min-width: 250px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+header {
+    max-width: 60%;
+    background-color: white;
+    opacity: 89%;
+    margin: 0 auto;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+.form-control {
+    padding: .7rem;
+}
+.content {
+    max-width: 60%;
+    margin: 3.135rem auto 0 auto;
+}
+@media (max-width: 787px) {
+    .content {
+        max-width: 96%;
+    }
+}
+main {
+    border-radius: 8%;
+    opacity: 90%;
+    margin: 0 8auto;
+    background-color: blueviolet;
+}
+header {
+    text-align: center;
+}
+p#title{
+    margin-top: 0;
+    padding-bottom: 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+@media (max-width:480px){
+    p#title {
+        font-size: .8rem;
+    }
+}
+h1#title{
+    margin-bottom: 6px;
+    color: palevioletred;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+@media (max-width: 480px) {
+    h1#title{
+        font-size: 1.8rem;
+    }
+}
+div.form-group {
+    margin: 0 auto 1.25rem;
+    padding: 0.25rem;
+}
+form#survey-form{
+    font-family: 'Duru Sans', sans-serif;
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+    padding: 2.5rem;
+    font-size: 1.5rem;
+}
+@media (max-width: 768px){
+    form#survey-form{
+        margin: 0;
+    }
+}
+.input-textarea{
+    min-height: 120px;
+    width: 99%;
+}
+button#submit.submit-button {
+    font-family: 'Poppins', sans-serif;
+    display: block;
+    width: 100%;
+    color: wheat;
+    background-color: black;
+    padding: .8rem;
+    font-size: 1.5rem;
+}
+button#submit.submit-button:hover {
+    background-color: blueviolet;
+    color: black;
+    font-size: 1.5rem;
+}
+.form-control {
+    width: 100%;
+}
+label{
+    display: flex;
+    align-items: center;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
